@@ -1,0 +1,181 @@
+
+@import 
+url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500&display=swap');
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    background-color: #83BD75;
+    box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.2);
+    padding: 0px 5%;
+    position: fixed;
+width: 100%;
+}
+
+nav ul {
+    display: flex;
+}
+
+nav ul li a {
+    margin: 30px;
+    font-family: 'Poppins';
+    color: white;
+    font-size: 18px;
+    font-weight: 700;
+    right: 30px;
+}
+
+.logo {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 60px;
+    text-decoration: none;
+    color: #125B50;
+    margin-bottom: 20px;
+    margin-right: 1200px;
+}
+
+body {
+    background-color: #FAF5E4;
+    margin: 0px;
+    padding: 0px;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    width: 138px;
+    height: 45px;
+    left: 322px;
+top: 800px;
+color: white;
+font-family: 'Poppins';
+}
+.logout a {
+    text-decoration: none;
+    width: 150px;
+    height: 60px;
+    left: 322px;
+top: 800px;
+color: white;
+font-family: 'Poppins';
+}
+
+.text-container p:nth-child(1) {
+    position: absolute;
+    width: 400px;
+    height: 22px;
+    left: 254px;
+    top: -50px;
+    
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+    color: #4E944F;
+}
+
+.text-container p:nth-child(2) {
+
+position: absolute;
+width: 632px;
+height: 91.89px;
+left: 254px;
+top : 0px;
+font-family: 'Poppins';
+font-style: bold;
+font-weight: 700;
+font-size: 60px;
+line-height: 48px;
+color: #000000;
+}
+
+.text-container p:nth-child(3) {
+    position: absolute;
+width: 632px;
+height: 91.89px;
+left: 254px;
+top : 70px;
+font-family: 'Poppins';
+font-style: bold;
+font-weight: 700;
+font-size: 60px;
+line-height: 48px;
+color: #ead300;
+}
+
+.text-container p:nth-child(4) {
+    position: absolute;
+width: 300px;
+height: 20px;
+left: 254px;
+top: 150px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 30px;
+
+color: #000000;
+}
+
+.text-container p {
+    line-height: 0px;
+    margin: 45px 0px 25px;
+}
+
+.text-container {
+    position: absolute;
+    left: 13%;
+    top: 42%;
+    -webkit-transform: translate(-13%, -42%);
+    transform: translate(-13%, -42%);
+}
+
+.phone {
+    width: 760px;
+height: 800px;
+top: 60px;
+    position: absolute;
+    bottom: 70px;
+    left: 90%;
+    -webkit-transform: translateX(-70%);
+    transform: translateX(-90%);
+}
+
+.hire-btn {
+    border: none;
+    background: #4E944F;
+    border-radius: 15px;
+    font-weight: 700;
+    width: 138px;
+    height: 45px;
+    left: 256px;
+top: 260px;
+position: relative;
+color:#FAF5E4;
+}
+
+button:active {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+button:hover {
+    background-color: brown;
+    color: white
+}
+
+.active {
+    font-weight: bold;
+    color: #2d2a2a;
+}

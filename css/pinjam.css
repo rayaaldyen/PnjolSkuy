@@ -1,0 +1,230 @@
+@import 
+url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500&display=swap');
+
+body {
+    background-color: #FAF5E4;
+    margin: 0px 0px;
+    padding: 0px;
+}
+
+h1 {
+    font-family: 'Poppins';
+    color: rgba(78, 148, 79, 1);
+    margin: auto;
+    text-align: center;
+}
+
+.text-container p:nth-child(1){
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500px;
+    font-weight: bolder;
+    font-size: 20px;
+    line-height:20px;
+    text-decoration: none;
+    color: #B20600;
+    position: relative;
+    text-align: center;
+    
+}
+.text-container p:nth-child(2){
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 250px;
+    font-size: 16px;
+    line-height:18px;
+    text-decoration: none;
+    color: #B20600;
+}
+.text-container p:nth-child(3){
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 250px;
+    font-size: 16px;
+    line-height:18px;
+    text-decoration: none;
+    color: #B20600;
+}
+
+
+.box1 {
+    position: absolute;
+    width: 900px;
+    height: 200px;
+    margin: 200px 469px 0 0;
+    top: 197px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #B4E197;
+    border-radius: 20px;
+}
+
+.box2 {
+    position: absolute;
+    width: 1920px;
+    height: 88px;
+    left: 0px;
+    top: 0px;
+    background: #B4E197;
+}
+
+.box2 h1 {
+    position: absolute;
+    width: 229px;
+    height: 66px;
+    left: 36px;
+    top: 11px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 60px;
+    color: #125B50;
+}
+
+a,
+button,
+input[type=submit] {
+    background-color: #83BD75;
+    border-radius: 10px;
+    border: none;
+    width: 138px;
+    height: 45px;
+}
+
+.box1 input[type=text] {
+    border-radius: 20px;
+    border: none;
+    width: 800px;
+    height: 65px;
+    margin: 7px 50px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 36px;
+    left: 526px;
+    top: 377px;
+    color: black;
+}
+
+.box1 input[type=text] ::placeholder {
+    text-align: inherit;
+}
+
+.box1 input[type=submit] {
+    color: black;
+    margin-bottom: 30px;
+}
+
+.box1 input[type="submit"]:hover {
+    background-color: brown;
+    color: white;
+}
+
+.box1 input[type="submit"]:active {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    background-color: #83BD75;
+    box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.2);
+    padding: 0px 5%;
+    position: fixed;
+width: 100%;
+}
+
+.logo {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 60px;
+    text-decoration: none;
+    color: #125B50;
+    margin-bottom: 20px;
+}
+
+.dropbtn {
+    background-color: #B4E197;
+    color: #FAF5E4;
+    padding: 20px;
+    font-size: 20px;
+    border: none;
+    cursor: pointer;
+}
+
+.dropdown {
+    position: relative;
+    align-items: center;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #B4E197;
+    min-width: 160px;
+    font-family: 'Poppins';
+}
+
+.dropdown-content {
+    color: black;
+    padding: 16px 20px;
+    text-decoration: none;
+    display: block;
+    align-items: center;
+}
+
+.dropdown-content a:hover {
+    background-color: #B4E197
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: #B4E197;
+}
+
+#box {
+    background-color: #83BD75;
+    box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.2);
+    margin: auto;
+    width: 480px;
+    padding: 20px;
+    top: 197px;
+    left: 50%;
+    transform: translate(0, 50%);
+    border-radius: 20px;
+}
+
+#text {
+    height: 25px;
+    border-radius: 5px;
+    padding: 4px;
+    border: solid thin #aaa;
+    width: 100%;
+    size: "50";
+}
+
+#button {
+
+		padding: 10px;
+		width: 100px;
+    	height: 45px;
+		color: #FAF5E4;
+		background-color: #4E944F;
+		border-radius: 15px;
+		border: none;
+		font-family: 'Poppins';
+		left: 40%;
+		position:relative;
+		top : 5px;
+		font-weight: 600;
+}
